@@ -1,0 +1,9 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.home_banner {
+    padding: "160px 10px 0px 50px";
+    background: "#f2f7e8";
+}
