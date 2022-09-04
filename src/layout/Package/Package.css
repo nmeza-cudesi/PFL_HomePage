@@ -1,0 +1,15 @@
+.big-block {
+    position: relative;
+    color: white;
+}
+
+@media (max-width: 1020px) {
+    .big-block {
+        position: initial;
+    }
+
+    .center {
+        height: 100%;
+        position: relative;
+    }
+}

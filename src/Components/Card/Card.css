@@ -1,0 +1,49 @@
+.box-info-pricing {
+    height: 100%;
+    top: 0;
+    width: 33%;
+    padding: 25px 30px;
+    right: 0;
+    text-align: right;
+    position: absolute;
+}
+
+.left {
+    text-align: left;
+    left: 0;
+}
+
+.box-info-bottom {
+    position: absolute;
+    text-align: left;
+    bottom: 0;
+    padding: 25px 30px;
+    height: auto !important;
+    width: 100%;
+}
+
+.image-travel {
+    height: 100%;
+}
+
+.image-botton {
+    width: 100%;
+}
+
+@media (max-width: 1020px) {
+    .box-info-pricing {
+        position: relative;
+        width: 100%;
+        height: auto;
+
+    }
+
+    .bottom {
+        position: absolute;
+        bottom: 0;
+    }
+
+    .image-travel {
+        height: auto;
+    }
+}
